@@ -1,0 +1,153 @@
+main
+{
+    margin:0;
+    max-width: 1000px;
+}
+.logo img
+{
+    margin-left: 4%;
+    height: 110px;
+}
+
+.row1
+{
+    float: right;
+    list-style: none;
+    margin-right: 5%;
+    margin-top: -90px;
+}
+
+.row1 li 
+{
+    display: inline-block;
+    margin-left:20px; 
+    margin-right: 10px;
+}
+
+.row1 i
+{
+    color: grey;
+    margin-right: 10px;
+}
+
+.row1:hover i:hover
+{
+    color: red;
+}
+
+.foodpic img
+{
+    height: 200px;
+    width: 100%;
+    transform: scale(0.8);
+    transition: transform 0.5s;
+}
+.foodpic img:hover
+{
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+.row1 li a
+{
+    color:gray;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.row1:hover li:hover a
+{
+    color: red;
+    border-bottom: 2px solid yellow;
+    transition: all 0.3s ease-out;
+    padding: 8px 0; 
+}
+.features
+{
+   
+    background-color:rgb(103,95,109);
+    color:white;
+}
+
+.container img
+{
+    width: 100%;
+    height: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: -50px;
+    margin-left: -15%;
+    margin: 10px;
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+
+.container img:hover
+{
+   transform: scale(1.05);
+    transition: transform 0.5s;
+}
+.row 
+{
+    height:37%;
+}
+.row img
+{
+    height: 90%;
+    padding-top: 30px;
+    padding-left: 50px;
+    width:100%;
+}
+
+.row span
+{
+/*    text-align: center;*/
+    margin-left: 48px;
+    margin-top: 55px;
+    font-family: cursive;
+    font-size: 30px;
+}
+.a1
+{
+    margin-left: -85px;
+/*    margin-left: 48px;*/
+    margin-top: 70px;
+    font-family: cursive;
+}
+.row2
+{
+    margin-left: 390px;
+    margin-top: -70px;
+/*    padding-top: -40px;*/
+}
+
+.row2 li
+{
+    margin-top: 10px;
+    margin-left: 39px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    border-right: 3px solid #e67e22;
+}
+.row2 li:after
+{
+    width:111px;
+    height: 3px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top:10px;
+}
+.d
+{
+    text-align: center;
+}
+
+.foodpic span
+{
+    text-align: center;
+    padding: 8px 48px 0px 0;
+    margin-left: 102px;
+    font-size: 20px cursive bold; 
+}

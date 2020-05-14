@@ -1,0 +1,383 @@
+main
+{
+    margin:auto;
+    max-width: 1000px;
+}
+
+*
+{
+    margin:0;
+    padding:0; 
+}
+
+body
+{
+    font-family:tahoma;
+}
+
+.font
+{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%; 
+    transform:translate(-50%,-50%);
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(image/635837252467158845719254630_background3.jpg);
+    height:80vh;
+    background-position:center; 
+    background-size:cover;
+    background-attachment: fixed;
+    animation: ayush 40s linear infinite;
+}
+
+@keyframes ayush
+{
+    0%
+    {
+        background-position:0;
+    }
+    100%
+    {
+        background-position:  -2122px;
+    }
+}
+
+.font h1
+{
+    color:white;
+}
+
+.row1
+{
+    margin-left: 700px;
+    list-style: none;
+}
+
+.row1 li 
+{
+    display: inline-block;
+    margin-left:20px; 
+    margin-top: 60px;
+    
+}
+
+.row1 i
+{
+    color: white;
+    margin-right: 4px;
+}
+
+.row1:hover i:hover
+{
+    color:red;
+}
+
+.row1 li a
+{
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.row1:hover li:hover a
+{
+    color: red;
+    border-bottom: 2px solid yellow;
+    transition: all 0.3s ease-out;
+    padding: 8px 0; 
+}
+
+.logo
+{
+    height: 50px;
+    width: 40px;
+    margin-top:-20px; 
+    margin-left: 150px;
+    float: left;
+}
+
+.font a
+{
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    border: 2px solid;
+    padding : 10px 20px;
+}
+
+.button
+{
+    margin-top: 40px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.b1
+{
+    border-radius: 20px;
+    background-color: #e76e22;
+    
+}
+
+.b2
+{
+     border-radius: 20px;
+}
+
+.b2:hover
+{
+    background-color: #e76e22;
+    transition: all 0.3s ease-in;
+}
+
+.features
+{
+   
+    background-image:url(image/wooden_solid_dark_brown_9665_1920x1080.jpg);
+    color:white;
+    
+}
+
+ h3:after
+{
+    width:100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top:20px; 
+}
+
+.text
+{
+    margin-top: 40px;
+    margin-left: 28%;
+    width 70%;
+    margin-bottom: 70px;
+}
+
+.arrange
+{
+    text-align: justify;
+}
+
+container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container img
+{
+    height: 27%;
+    margin-left: 28%;
+    margin-bottom: 30px;
+}
+
+.features i
+{
+    font-size: 50px;
+    margin-left: 40%;
+}
+
+h4
+{
+    margin-left: 10%;
+}
+
+.mobile
+{
+    margin-top: 45px;
+}
+
+.mobiletext
+{
+    margin-left: 16%;
+    margin-top: 5%;
+}
+
+.pic img
+{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.pic1 img
+{
+    height: 90%;
+    margin-top: 40px;
+}
+
+.pic2 img
+{
+    height: 90%;
+    margin-top: 40px;
+    width: 120%;
+}
+
+.row2
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.row2 li
+{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.video
+{
+    margin-left:20%;
+    margin-bottom: 10%;
+}
+
+.city 
+{
+    margin-top: 3%;
+    background-image: url(image/solid-color-hd-wallpaper-13.jpg);
+    height: 15vh;
+}
+
+.city li a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.city li a:hover
+{
+    transition: all 0.3s ease-in;
+    color: black;
+}
+
+.below
+{
+    margin-left: 100px;
+}
+
+.below a
+{
+    text-decoration: none;
+}
+
+.footer
+{
+    background-image: url(image/1920x1080-black-solid-color-background.jpg);
+}
+.footer p
+{
+    margin-top: 40px;
+    color: white;
+    
+}
+.footer p a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.footer p a:hover
+{
+    transition: all 0.2s ease-in;
+    color: royalblue;
+}
+
+.footer h6
+{
+    color: gray;
+    margin-top: 20px;
+}
+
+.pic img
+{
+    margin-top: 23px;
+    border: 1px solid #e67e22;
+    height: 8%;
+    width: 60%;
+    border: 50%;
+    border-color: white;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.pic img:hover
+{
+    transform: scale(1.35);
+    transition: transform 0.5s;
+}
+
+.last
+{
+    margin-left: 80px;
+}
+
+.lastimg img
+{
+    height: 3%;
+    width: 10%;
+}
+
+.lastimg1 img
+{
+    height: 4%;
+    margin-left: 10%;
+    width: 5%;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.lastimg1 img:hover
+{
+     transform: scale(1.35);
+    transition: transform 0.5s;
+    color: blue;
+}
+    .lastimg img
+{
+    height: 20%;
+    width: 40%;
+}
+
+.line { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
